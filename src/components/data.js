@@ -10,9 +10,9 @@ const Cardsdata = [
       "year": 1958
     },
     {
-      "author": "Hans Christian Andersen",
+      "author": "Hans C Andersen",
       "country": "Denmark",
-      "imageLink": require("./images/fairy-tales.jpg"),
+      "imageLink": "./images/fairy-tales.jpg",
       "language": "Danish",
       "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
       "pages": 784,

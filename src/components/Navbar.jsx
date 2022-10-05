@@ -1,23 +1,23 @@
 
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
+import logo1 from '../logo.jpg';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
       <div>
         <nav className="bg-orange-400">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16">
-              <div className="flex items-center">
-                <div className="flex-shrink-0">
+              <div className="flex items-center h-16">
+                <div className="flex-shrink-0 justify-start">
                   <img
                     className="h-8 w-8"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                    src={logo1}
                     alt="Workflow"
                   />
                 </div>
                 <div className="hidden md:block">
-                  <div className="ml-10 flex items-baseline space-x-4">
+                  <div className="flex justify-end">
                     <a
                       href="#"
                       className=" hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -30,18 +30,9 @@ const Navbar = () => {
                       className="text-gray-300 hover:bg-orange-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
                       Books
-                    </a>
-  
-                    <a
-                      href="#"
-                      className="text-gray-300 hover:bg-orange-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                    >
-                      Projects
-                    </a>
-  
-                    
+                    </a> 
+                                
                   </div>
-                </div>
               </div>
               <div className="-mr-2 flex md:hidden">
                 <button
@@ -109,12 +100,6 @@ const Navbar = () => {
                     Books
                   </a>
   
-                  <a
-                    href="#"
-                    className="text-gray-300 hover:bg-orange-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    Projects
-                  </a>
                 </div>
               </div>
             )}

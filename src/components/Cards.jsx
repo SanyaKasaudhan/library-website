@@ -4,14 +4,7 @@ import React, { useState } from 'react'
 import Cardsdata from "./data"
 const Cards = () => {
     const[user, setUser] =useState(Cardsdata);
-    // console.log("user",user.title)
-    // user.map((data) =>{
-    // console.log("data",data.country)
-    // }
-    // )
-
-
-    // console.log("user",user?.country[1]);
+    
   return (
     <div>
          <div className="row flex flex-wrap justify-center">
@@ -23,7 +16,7 @@ const Cards = () => {
                <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 m-2 bg-white rounded-lg border max-w-xs border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
             >
     <a href="#" className=''>
-        <img className="rounded-t-lg min-w-full max-w-32 max-h-72" src={data.imageLink} alt="" />
+        <img className="rounded-t-lg min-w-full max-w-32 max-h-72 block h-auto w-full" src={data.imageLink} alt="" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">

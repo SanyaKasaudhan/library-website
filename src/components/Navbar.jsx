@@ -2,6 +2,11 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import logo1 from '../logo.jpg';
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+library.add(faShoppingCart);
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
@@ -34,6 +39,8 @@ const Navbar = () => {
                                 
                   </div>
               </div>
+              
+              
               <div className="-mr-2 flex md:hidden">
                 <button
                   onClick={() => setIsOpen(!isOpen)}
@@ -104,6 +111,12 @@ const Navbar = () => {
               </div>
             )}
           </Transition>
+
+          <div className="shop-icon">
+                    <a href="">
+                      <faShoppingCart color="red"/>
+                    </a>
+          </div>
         </nav>
       </div>
     );

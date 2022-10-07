@@ -4,9 +4,6 @@ import logo1 from "../logo.jpg";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { library } from "@fortawesome/fontawesome-svg-core";
-
-library.add(faShoppingCart);
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (

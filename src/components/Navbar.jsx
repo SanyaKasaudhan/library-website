@@ -3,6 +3,8 @@ import { Transition } from "@headlessui/react";
 import logo1 from "../logo.jpg";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,19 +18,17 @@ const Navbar = () => {
             </div>
             <div className="hidden md:block">
               <div className="">
-                <a
-                  href="#"
+                <Link to="/"
                   className=" hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Dashboard
-                </a>
+                </Link>
 
-                <a
-                  href="#"
+                <Link to="/books"
                   className="text-gray-300 hover:bg-orange-600 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Books
-                </a>
+                </Link>
               </div>
             </div>
             <div className="shop-icon flex-row-reverse flex-end ml-auto">

@@ -1,14 +1,29 @@
 import Cards from "./components/Cards";
+import Discount from "./components/Discount";
 import Featured from "./components/Featured";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <Header />
       <Featured />
-     <Cards />
+      <Discount />
+      <Footer />
+     <Cards /> */}
+
+     <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index element={<Navbar />} />
+          <Route path="books" element={<Cards />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
     </div>
   );
 }

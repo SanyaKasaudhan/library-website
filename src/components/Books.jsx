@@ -1,17 +1,12 @@
-import React, { useState } from "react";
+import React from 'react'
 
-// // import img1 from ''
-// import { books } from "./data";
-const Cards = ({ book }) => {
- // const [user, setUser] = useState(books);
-
+const Books = ({book}) => {
+    console.log("filt",book) ;  
   return (
     <div>
-      <div className="row flex flex-wrap justify-center">
-        <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 m-2 bg-white rounded-lg border max-w-xs border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#" className="">
+         <a href="#" className="">
             <img
-              className="rounded-t-lg min-w-full max-w-32 max-h-72 block h-auto w-full"
+              className="rounded-t-lg min-w-full max-w-32 max-h-72 block h-auto"
               src={book.imageLink}
               alt=""
             />
@@ -90,9 +85,7 @@ const Cards = ({ book }) => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
+  )
+}
 
-export default Cards;
+export default Books

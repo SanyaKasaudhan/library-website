@@ -1,4 +1,4 @@
-const Cardsdata = [
+export const books = [
   {
     "author": "Chinua Achebe",
     "country": "Nigeria",
@@ -7,7 +7,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
     "pages": 209,
     "title": "Things Fall Apart",
-    "price": 584,
+    "rating" : 4,
+"price": 584,
     "year": 1958
   },
   {
@@ -18,7 +19,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
     "pages": 784,
     "title": "Fairy tales",
-    "price": 964,
+    "rating" : 5,
+"price": 964,
     "year": 1836
   },
   {
@@ -29,7 +31,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
     "pages": 928,
     "title": "The Divine Comedy",
-    "price": 364,
+    "rating" : 3,
+"price": 364,
     "year": 1315
   },
   {
@@ -40,18 +43,20 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
     "pages": 160,
     "title": "The Epic Of Gilgamesh",
-    "price": 1764,
+    "rating" : 3,
+"price": 1764,
     "year": -1700
   },
   {
-    "author": "Unknown",
+    "author": "ruskin bond",
     "country": "Achaemenid Empire",
     "imageLink": "images/the-book-of-job.jpg",
     "language": "Hebrew",
     "link": "https://en.wikipedia.org/wiki/Book_of_Job\n",
     "pages": 176,
     "title": "The Book Of Job",
-    "price": 954,
+    "rating" : 5,
+"price": 954,
     "year": -600
   },
   {
@@ -62,7 +67,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n",
     "pages": 288,
     "title": "One Thousand and One Nights",
-    "price": 994,
+    "rating" : 2,
+"price": 994,
     "year": 1200
   },
   {
@@ -73,7 +79,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n",
     "pages": 384,
     "title": "Nj\u00e1l's Saga",
-    "price": 534,
+    "rating" : 4,
+"price": 534,
     "year": 1350
   },
   {
@@ -84,7 +91,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
     "pages": 226,
     "title": "Pride and Prejudice",
-    "price": 734,
+    "rating" : 4,
+"price": 734,
     "year": 1813
   },
   {
@@ -95,7 +103,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n",
     "pages": 443,
     "title": "Le P\u00e8re Goriot",
-    "price": 334,
+    "rating" : 4,
+"price": 334,
     "year": 1835
   },
   {
@@ -106,7 +115,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
     "pages": 256,
     "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
-    "price": 694,
+    "rating" : 5,
+"price": 694,
     "year": 1952
   },
   {
@@ -117,7 +127,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
     "pages": 1024,
     "title": "The Decameron",
-    "price": 54,
+    "rating" : 4,
+"price": 54,
     "year": 1351
   },
   {
@@ -128,7 +139,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Ficciones\n",
     "pages": 224,
     "title": "Ficciones",
-    "price": 34,
+    "rating" : 4,
+"price": 34,
     "year": 1965
   },
   {
@@ -139,7 +151,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
     "pages": 342,
     "title": "Wuthering Heights",
-    "price": 464,
+    "rating" : 5,
+"price": 464,
     "year": 1847
   },
   {
@@ -150,7 +163,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
     "pages": 185,
     "title": "The Stranger",
-    "price": 694,
+    "rating" : 4,
+"price": 694,
     "year": 1942
   },
   {
@@ -161,7 +175,8 @@ const Cardsdata = [
     "link": "\n",
     "pages": 320,
     "title": "Poems",
-    "price": 624,
+    "rating" : 4,
+"price": 624,
     "year": 1952
   },
   {
@@ -172,7 +187,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n",
     "pages": 505,
     "title": "Journey to the End of the Night",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1932
   },
   {
@@ -183,7 +199,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Don_Quixote\n",
     "pages": 1056,
     "title": "Don Quijote De La Mancha",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1610
   },
   {
@@ -194,7 +211,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales\n",
     "pages": 544,
     "title": "The Canterbury Tales",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1450
   },
   {
@@ -205,7 +223,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov\n",
     "pages": 194,
     "title": "Stories",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1886
   },
   {
@@ -216,7 +235,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Nostromo\n",
     "pages": 320,
     "title": "Nostromo",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1904
   },
   {
@@ -227,7 +247,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Great_Expectations\n",
     "pages": 194,
     "title": "Great Expectations",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1861
   },
   {
@@ -238,7 +259,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist\n",
     "pages": 596,
     "title": "Jacques the Fatalist",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1796
   },
   {
@@ -249,7 +271,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz\n",
     "pages": 600,
     "title": "Berlin Alexanderplatz",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1929
   },
   {
@@ -260,7 +283,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment\n",
     "pages": 551,
     "title": "Crime and Punishment",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1866
   },
   {
@@ -271,7 +295,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Idiot\n",
     "pages": 656,
     "title": "The Idiot",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1869
   },
   {
@@ -282,7 +307,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n",
     "pages": 768,
     "title": "The Possessed",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1872
   },
   {
@@ -293,7 +319,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n",
     "pages": 824,
     "title": "The Brothers Karamazov",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1880
   },
   {
@@ -304,7 +331,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Middlemarch\n",
     "pages": 800,
     "title": "Middlemarch",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1871
   },
   {
@@ -315,7 +343,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Invisible_Man\n",
     "pages": 581,
     "title": "Invisible Man",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1952
   },
   {
@@ -326,7 +355,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Medea_(play)\n",
     "pages": 104,
     "title": "Medea",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": -431
   },
   {
@@ -337,7 +367,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!\n",
     "pages": 313,
     "title": "Absalom, Absalom!",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1936
   },
   {
@@ -348,7 +379,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n",
     "pages": 326,
     "title": "The Sound and the Fury",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1929
   },
   {
@@ -359,7 +391,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Madame_Bovary\n",
     "pages": 528,
     "title": "Madame Bovary",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1857
   },
   {
@@ -370,7 +403,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Sentimental_Education\n",
     "pages": 606,
     "title": "Sentimental Education",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1869
   },
   {
@@ -381,7 +415,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads\n",
     "pages": 218,
     "title": "Gypsy Ballads",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1928
   },
   {
@@ -392,7 +427,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude\n",
     "pages": 417,
     "title": "One Hundred Years of Solitude",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1967
   },
   {
@@ -403,7 +439,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera\n",
     "pages": 368,
     "title": "Love in the Time of Cholera",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1985
   },
   {
@@ -414,7 +451,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
     "pages": 158,
     "title": "Faust",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1832
   },
   {
@@ -425,7 +463,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Dead_Souls\n",
     "pages": 432,
     "title": "Dead Souls",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1842
   },
   {
@@ -436,7 +475,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Tin_Drum\n",
     "pages": 600,
     "title": "The Tin Drum",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1959
   },
   {
@@ -447,7 +487,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands\n",
     "pages": 494,
     "title": "The Devil to Pay in the Backlands",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1956
   },
   {
@@ -458,7 +499,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n",
     "pages": 176,
     "title": "Hunger",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1890
   },
   {
@@ -469,7 +511,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n",
     "pages": 128,
     "title": "The Old Man and the Sea",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1952
   },
   {
@@ -480,7 +523,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Iliad\n",
     "pages": 608,
     "title": "Iliad",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": -735
   },
   {
@@ -491,7 +535,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Odyssey\n",
     "pages": 374,
     "title": "Odyssey",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": -800
   },
   {
@@ -502,7 +547,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House\n",
     "pages": 68,
     "title": "A Doll's House",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1879
   },
   {
@@ -513,7 +559,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)\n",
     "pages": 228,
     "title": "Ulysses",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1922
   },
   {
@@ -524,7 +571,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories\n",
     "pages": 488,
     "title": "Stories",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1924
   },
   {
@@ -535,7 +583,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Trial\n",
     "pages": 160,
     "title": "The Trial",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1925
   },
   {
@@ -546,7 +595,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Castle_(novel)\n",
     "pages": 352,
     "title": "The Castle",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1926
   },
   {
@@ -557,7 +607,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam\n",
     "pages": 147,
     "title": "The recognition of Shakuntala",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 150
   },
   {
@@ -568,7 +619,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain\n",
     "pages": 288,
     "title": "The Sound of the Mountain",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1954
   },
   {
@@ -579,7 +631,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Zorba_the_Greek\n",
     "pages": 368,
     "title": "Zorba the Greek",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1946
   },
   {
@@ -590,7 +643,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Sons_and_Lovers\n",
     "pages": 432,
     "title": "Sons and Lovers",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1913
   },
   {
@@ -601,7 +655,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Independent_People\n",
     "pages": 470,
     "title": "Independent People",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1934
   },
   {
@@ -612,7 +667,8 @@ const Cardsdata = [
     "link": "\n",
     "pages": 184,
     "title": "Poems",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1818
   },
   {
@@ -623,7 +679,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Golden_Notebook\n",
     "pages": 688,
     "title": "The Golden Notebook",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1962
   },
   {
@@ -634,7 +691,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Pippi_Longstocking\n",
     "pages": 160,
     "title": "Pippi Longstocking",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1945
   },
   {
@@ -645,7 +703,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/A_Madman%27s_Diary\n",
     "pages": 389,
     "title": "Diary of a Madman",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1918
   },
   {
@@ -656,7 +715,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Children_of_Gebelawi\n",
     "pages": 355,
     "title": "Children of Gebelawi",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1959
   },
   {
@@ -667,7 +727,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Buddenbrooks\n",
     "pages": 736,
     "title": "Buddenbrooks",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1901
   },
   {
@@ -678,7 +739,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Magic_Mountain\n",
     "pages": 720,
     "title": "The Magic Mountain",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1924
   },
   {
@@ -689,7 +751,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Moby-Dick\n",
     "pages": 378,
     "title": "Moby Dick",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1851
   },
   {
@@ -700,7 +763,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Essays_(Montaigne)\n",
     "pages": 404,
     "title": "Essays",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1595
   },
   {
@@ -711,7 +775,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/History_(novel)\n",
     "pages": 600,
     "title": "History",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1974
   },
   {
@@ -722,7 +787,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Beloved_(novel)\n",
     "pages": 321,
     "title": "Beloved",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1987
   },
   {
@@ -733,7 +799,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Tale_of_Genji\n",
     "pages": 1360,
     "title": "The Tale of Genji",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1006
   },
   {
@@ -744,7 +811,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities\n",
     "pages": 365,
     "title": "The Man Without Qualities",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1931
   },
   {
@@ -755,7 +823,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Lolita\n",
     "pages": 317,
     "title": "Lolita",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1955
   },
   {
@@ -766,7 +835,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four\n",
     "pages": 272,
     "title": "Nineteen Eighty-Four",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1949
   },
   {
@@ -777,7 +847,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Metamorphoses\n",
     "pages": 576,
     "title": "Metamorphoses",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 100
   },
   {
@@ -788,7 +859,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet\n",
     "pages": 272,
     "title": "The Book of Disquiet",
-    "price": 564,
+    "rating" : 4,
+"price": 564,
     "year": 1928
   },
   {
@@ -799,7 +871,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales\n",
     "pages": 842,
     "title": "Tales",
-    "price": 934,
+    "rating" : 4,
+"price": 934,
     "year": 1950
   },
   {
@@ -810,7 +883,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time\n",
     "pages": 2408,
     "title": "In Search of Lost Time",
-    "price": 864,
+    "rating" : 4,
+"price": 864,
     "year": 1920
   },
   {
@@ -821,7 +895,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel\n",
     "pages": 623,
     "title": "Gargantua and Pantagruel",
-    "price": 634,
+    "rating" : 4,
+"price": 634,
     "year": 1533
   },
   {
@@ -832,7 +907,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo\n",
     "pages": 124,
     "title": "Pedro P\u00e1ramo",
-    "price": 194,
+    "rating" : 4,
+"price": 194,
     "year": 1955
   },
   {
@@ -843,7 +919,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Masnavi\n",
     "pages": 438,
     "title": "The Masnavi",
-    "price": 434,
+    "rating" : 4,
+"price": 434,
     "year": 1236
   },
   {
@@ -854,7 +931,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Midnight%27s_Children\n",
     "pages": 536,
     "title": "Midnight's Children",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1981
   },
   {
@@ -865,7 +943,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Bustan_(book)\n",
     "pages": 298,
     "title": "Bostan",
-    "price": 594,
+    "rating" : 4,
+"price": 594,
     "year": 1257
   },
   {
@@ -876,7 +955,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n",
     "pages": 139,
     "title": "Season of Migration to the North",
-    "price": 1834,
+    "rating" : 4,
+"price": 1834,
     "year": 1966
   },
   {
@@ -887,7 +967,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Blindness_(novel)\n",
     "pages": 352,
     "title": "Blindness",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1995
   },
   {
@@ -898,7 +979,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Hamlet\n",
     "pages": 432,
     "title": "Hamlet",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1603
   },
   {
@@ -909,7 +991,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/King_Lear\n",
     "pages": 384,
     "title": "King Lear",
-    "price": 244,
+    "rating" : 4,
+"price": 244,
     "year": 1608
   },
   {
@@ -920,7 +1003,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Othello\n",
     "pages": 314,
     "title": "Othello",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1609
   },
   {
@@ -931,7 +1015,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Oedipus_the_King\n",
     "pages": 88,
     "title": "Oedipus the King",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": -430
   },
   {
@@ -942,7 +1027,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Red_and_the_Black\n",
     "pages": 576,
     "title": "The Red and the Black",
-    "price": 434,
+    "rating" : 5,
+"price": 434,
     "year": 1830
   },
   {
@@ -953,7 +1039,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman\n",
     "pages": 640,
     "title": "The Life And Opinions of Tristram Shandy",
-    "price": 954,
+    "rating" : 4,
+"price": 954,
     "year": 1760
   },
   {
@@ -964,7 +1051,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Zeno%27s_Conscience\n",
     "pages": 412,
     "title": "Confessions of Zeno",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1923
   },
   {
@@ -975,7 +1063,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels\n",
     "pages": 178,
     "title": "Gulliver's Travels",
-    "price": 134,
+    "rating" : 5,
+"price": 134,
     "year": 1726
   },
   {
@@ -986,7 +1075,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/War_and_Peace\n",
     "pages": 1296,
     "title": "War and Peace",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1867
   },
   {
@@ -997,7 +1087,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Anna_Karenina\n",
     "pages": 864,
     "title": "Anna Karenina",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": 1877
   },
   {
@@ -1008,7 +1099,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich\n",
     "pages": 92,
     "title": "The Death of Ivan Ilyich",
-    "price": 544,
+    "rating" : 4,
+"price": 544,
     "year": 1886
   },
   {
@@ -1019,7 +1111,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn\n",
     "pages": 224,
     "title": "The Adventures of Huckleberry Finn",
-    "price": 144,
+    "rating" : 4,
+"price": 144,
     "year": 1884
   },
   {
@@ -1030,7 +1123,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Ramayana\n",
     "pages": 152,
     "title": "Ramayana",
-    "price": 134,
+    "rating" : 5,
+"price": 134,
     "year": -450
   },
   {
@@ -1041,7 +1135,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Aeneid\n",
     "pages": 442,
     "title": "The Aeneid",
-    "price": 134,
+    "rating" : 2,
+"price": 134,
     "year": -23
   },
   {
@@ -1052,7 +1147,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Mahabharata\n",
     "pages": 276,
     "title": "Mahabharata",
-    "price": 134,
+    "rating" : 4,
+"price": 134,
     "year": -700
   },
   {
@@ -1063,7 +1159,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass\n",
     "pages": 152,
     "title": "Leaves of Grass",
-    "price": 234,
+    "rating" : 4,
+"price": 234,
     "year": 1855
   },
   {
@@ -1074,7 +1171,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway\n",
     "pages": 216,
     "title": "Mrs Dalloway",
-    "price": 164,
+    "rating" : 4,
+"price": 164,
     "year": 1925
   },
   {
@@ -1085,7 +1183,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse\n",
     "pages": 209,
     "title": "To the Lighthouse",
-    "price": 114,
+    "rating" : 4,
+"price": 114,
     "year": 1927
   },
   {
@@ -1096,8 +1195,8 @@ const Cardsdata = [
     "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian\n",
     "pages": 408,
     "title": "Memoirs of Hadrian",
-    "price": 134,
+    "rating" : 5,
+"price": 134,
     "year": 1951
   }
 ]
-export default Cardsdata;

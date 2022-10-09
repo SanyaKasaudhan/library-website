@@ -1,5 +1,18 @@
 export const books = [
   {
+    "author": "Albert Camus",
+    "country": "Algeria, French Empire",
+    "imageLink": "images/l-etranger.jpg",
+    "language": "French",
+    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
+    "pages": 185,
+    "title": "The Stranger",
+    "rating": 4,
+    "salePrice": 239,
+    "price": 694,
+    "year": 1942
+  },
+  {
     "author": "Chinua Achebe",
     "country": "Nigeria",
     "imageLink": "./images/things-fall-apart.jpg",
@@ -7,8 +20,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Things_Fall_Apart\n",
     "pages": 209,
     "title": "Things Fall Apart",
-    "rating" : 4,
-"price": 584,
+    "rating": 4,
+    "salePrice": null,
+    "price": 584,
     "year": 1958
   },
   {
@@ -19,8 +33,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
     "pages": 784,
     "title": "Fairy tales",
-    "rating" : 5,
-"price": 964,
+    "rating": 5,
+    "salePrice": null,
+    "price": 964,
     "year": 1836
   },
   {
@@ -31,8 +46,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
     "pages": 928,
     "title": "The Divine Comedy",
-    "rating" : 3,
-"price": 364,
+    "rating": 3,
+    "salePrice": 219,
+    "price": 364,
     "year": 1315
   },
   {
@@ -43,8 +59,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh\n",
     "pages": 160,
     "title": "The Epic Of Gilgamesh",
-    "rating" : 3,
-"price": 1764,
+    "rating": 3,
+    "salePrice": null,
+    "price": 1764,
     "year": -1700
   },
   {
@@ -55,8 +72,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Book_of_Job\n",
     "pages": 176,
     "title": "The Book Of Job",
-    "rating" : 5,
-"price": 954,
+    "rating": 5,
+    "salePrice": 239,
+    "price": 954,
     "year": -600
   },
   {
@@ -67,8 +85,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights\n",
     "pages": 288,
     "title": "One Thousand and One Nights",
-    "rating" : 2,
-"price": 994,
+    "rating": 2,
+    "salePrice": 239,
+    "price": 994,
     "year": 1200
   },
   {
@@ -79,8 +98,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Nj%C3%A1ls_saga\n",
     "pages": 384,
     "title": "Nj\u00e1l's Saga",
-    "rating" : 4,
-"price": 534,
+    "rating": 4,
+    "salePrice": 439,
+    "price": 534,
     "year": 1350
   },
   {
@@ -91,8 +111,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Pride_and_Prejudice\n",
     "pages": 226,
     "title": "Pride and Prejudice",
-    "rating" : 4,
-"price": 734,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 734,
     "year": 1813
   },
   {
@@ -103,20 +124,22 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Le_P%C3%A8re_Goriot\n",
     "pages": 443,
     "title": "Le P\u00e8re Goriot",
-    "rating" : 4,
-"price": 334,
+    "rating": 4,
+    "salePrice": null,
+    "price": 334,
     "year": 1835
   },
   {
     "author": "Samuel Beckett",
     "country": "Republic of Ireland",
     "imageLink": "images/molloy-malone-dies-the-unnamable.jpg",
-    "language": "French, English",
+    "language": "French",
     "link": "https://en.wikipedia.org/wiki/Molloy_(novel)\n",
     "pages": 256,
     "title": "Molloy, Malone Dies, The Unnamable, the trilogy",
-    "rating" : 5,
-"price": 694,
+    "rating": 5,
+    "salePrice": null,
+    "price": 694,
     "year": 1952
   },
   {
@@ -127,8 +150,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Decameron\n",
     "pages": 1024,
     "title": "The Decameron",
-    "rating" : 4,
-"price": 54,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 1154,
     "year": 1351
   },
   {
@@ -139,34 +163,25 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Ficciones\n",
     "pages": 224,
     "title": "Ficciones",
-    "rating" : 4,
-"price": 34,
+    "rating": 4,
+    "salePrice": 29,
+    "price": 34,
     "year": 1965
   },
   {
-    "author": "Emily Bront\u00eb",
+    "author": "Emily Bront",
     "country": "United Kingdom",
     "imageLink": "images/wuthering-heights.jpg",
     "language": "English",
     "link": "https://en.wikipedia.org/wiki/Wuthering_Heights\n",
     "pages": 342,
     "title": "Wuthering Heights",
-    "rating" : 5,
-"price": 464,
+    "rating": 5,
+    "salePrice": 239,
+    "price": 464,
     "year": 1847
   },
-  {
-    "author": "Albert Camus",
-    "country": "Algeria, French Empire",
-    "imageLink": "images/l-etranger.jpg",
-    "language": "French",
-    "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
-    "pages": 185,
-    "title": "The Stranger",
-    "rating" : 4,
-"price": 694,
-    "year": 1942
-  },
+ 
   {
     "author": "Paul Celan",
     "country": "Romania, France",
@@ -175,8 +190,9 @@ export const books = [
     "link": "\n",
     "pages": 320,
     "title": "Poems",
-    "rating" : 4,
-"price": 624,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 624,
     "year": 1952
   },
   {
@@ -187,8 +203,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n",
     "pages": 505,
     "title": "Journey to the End of the Night",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1932
   },
   {
@@ -199,8 +216,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Don_Quixote\n",
     "pages": 1056,
     "title": "Don Quijote De La Mancha",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1610
   },
   {
@@ -211,8 +229,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales\n",
     "pages": 544,
     "title": "The Canterbury Tales",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1450
   },
   {
@@ -223,8 +242,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov\n",
     "pages": 194,
     "title": "Stories",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1886
   },
   {
@@ -235,8 +255,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Nostromo\n",
     "pages": 320,
     "title": "Nostromo",
-    "rating" : 4,
-"price": 134,
+    "rating": 4.5,
+    "salePrice": null,
+    "price": 134,
     "year": 1904
   },
   {
@@ -247,8 +268,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Great_Expectations\n",
     "pages": 194,
     "title": "Great Expectations",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1861
   },
   {
@@ -259,8 +281,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Jacques_the_Fatalist\n",
     "pages": 596,
     "title": "Jacques the Fatalist",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1796
   },
   {
@@ -271,8 +294,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Berlin_Alexanderplatz\n",
     "pages": 600,
     "title": "Berlin Alexanderplatz",
-    "rating" : 4,
-"price": 134,
+    "rating": 3.5,
+    "salePrice": 239,
+    "price": 134,
     "year": 1929
   },
   {
@@ -283,8 +307,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Crime_and_Punishment\n",
     "pages": 551,
     "title": "Crime and Punishment",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1866
   },
   {
@@ -295,8 +320,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Idiot\n",
     "pages": 656,
     "title": "The Idiot",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1869
   },
   {
@@ -307,8 +333,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Demons_(Dostoyevsky_novel)\n",
     "pages": 768,
     "title": "The Possessed",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1872
   },
   {
@@ -319,8 +346,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Brothers_Karamazov\n",
     "pages": 824,
     "title": "The Brothers Karamazov",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": null,
+    "price": 134,
     "year": 1880
   },
   {
@@ -331,8 +359,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Middlemarch\n",
     "pages": 800,
     "title": "Middlemarch",
-    "rating" : 4,
-"price": 134,
+    "rating": 5,
+    "salePrice": 239,
+    "price": 134,
     "year": 1871
   },
   {
@@ -343,8 +372,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Invisible_Man\n",
     "pages": 581,
     "title": "Invisible Man",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1952
   },
   {
@@ -355,8 +385,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Medea_(play)\n",
     "pages": 104,
     "title": "Medea",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": -431
   },
   {
@@ -367,8 +398,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Absalom,_Absalom!\n",
     "pages": 313,
     "title": "Absalom, Absalom!",
-    "rating" : 4,
-"price": 134,
+    "rating": 4.5,
+    "salePrice": null,
+    "price": 134,
     "year": 1936
   },
   {
@@ -379,8 +411,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Sound_and_the_Fury\n",
     "pages": 326,
     "title": "The Sound and the Fury",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1929
   },
   {
@@ -391,8 +424,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Madame_Bovary\n",
     "pages": 528,
     "title": "Madame Bovary",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1857
   },
   {
@@ -403,8 +437,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Sentimental_Education\n",
     "pages": 606,
     "title": "Sentimental Education",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1869
   },
   {
@@ -415,8 +450,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Gypsy_Ballads\n",
     "pages": 218,
     "title": "Gypsy Ballads",
-    "rating" : 4,
-"price": 134,
+    "rating": 2.5,
+    "salePrice": null,
+    "price": 134,
     "year": 1928
   },
   {
@@ -427,8 +463,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude\n",
     "pages": 417,
     "title": "One Hundred Years of Solitude",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1967
   },
   {
@@ -439,8 +476,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Love_in_the_Time_of_Cholera\n",
     "pages": 368,
     "title": "Love in the Time of Cholera",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1985
   },
   {
@@ -451,8 +489,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Goethe%27s_Faust\n",
     "pages": 158,
     "title": "Faust",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1832
   },
   {
@@ -463,8 +502,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Dead_Souls\n",
     "pages": 432,
     "title": "Dead Souls",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1842
   },
   {
@@ -475,8 +515,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Tin_Drum\n",
     "pages": 600,
     "title": "The Tin Drum",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1959
   },
   {
@@ -487,8 +528,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Devil_to_Pay_in_the_Backlands\n",
     "pages": 494,
     "title": "The Devil to Pay in the Backlands",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1956
   },
   {
@@ -499,8 +541,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Hunger_(Hamsun_novel)\n",
     "pages": 176,
     "title": "Hunger",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1890
   },
   {
@@ -511,8 +554,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea\n",
     "pages": 128,
     "title": "The Old Man and the Sea",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1952
   },
   {
@@ -523,8 +567,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Iliad\n",
     "pages": 608,
     "title": "Iliad",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": -735
   },
   {
@@ -535,8 +580,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Odyssey\n",
     "pages": 374,
     "title": "Odyssey",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": -800
   },
   {
@@ -547,8 +593,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/A_Doll%27s_House\n",
     "pages": 68,
     "title": "A Doll's House",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1879
   },
   {
@@ -559,8 +606,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Ulysses_(novel)\n",
     "pages": 228,
     "title": "Ulysses",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1922
   },
   {
@@ -571,8 +619,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Franz_Kafka_bibliography#Short_stories\n",
     "pages": 488,
     "title": "Stories",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1924
   },
   {
@@ -583,8 +632,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Trial\n",
     "pages": 160,
     "title": "The Trial",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1925
   },
   {
@@ -595,8 +645,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Castle_(novel)\n",
     "pages": 352,
     "title": "The Castle",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1926
   },
   {
@@ -607,8 +658,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Abhij%C3%B1%C4%81na%C5%9B%C4%81kuntalam\n",
     "pages": 147,
     "title": "The recognition of Shakuntala",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 150
   },
   {
@@ -619,8 +671,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Sound_of_the_Mountain\n",
     "pages": 288,
     "title": "The Sound of the Mountain",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1954
   },
   {
@@ -631,8 +684,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Zorba_the_Greek\n",
     "pages": 368,
     "title": "Zorba the Greek",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1946
   },
   {
@@ -643,8 +697,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Sons_and_Lovers\n",
     "pages": 432,
     "title": "Sons and Lovers",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1913
   },
   {
@@ -655,8 +710,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Independent_People\n",
     "pages": 470,
     "title": "Independent People",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1934
   },
   {
@@ -667,8 +723,9 @@ export const books = [
     "link": "\n",
     "pages": 184,
     "title": "Poems",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1818
   },
   {
@@ -679,8 +736,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Golden_Notebook\n",
     "pages": 688,
     "title": "The Golden Notebook",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1962
   },
   {
@@ -691,8 +749,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Pippi_Longstocking\n",
     "pages": 160,
     "title": "Pippi Longstocking",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1945
   },
   {
@@ -703,8 +762,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/A_Madman%27s_Diary\n",
     "pages": 389,
     "title": "Diary of a Madman",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1918
   },
   {
@@ -715,8 +775,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Children_of_Gebelawi\n",
     "pages": 355,
     "title": "Children of Gebelawi",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1959
   },
   {
@@ -727,8 +788,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Buddenbrooks\n",
     "pages": 736,
     "title": "Buddenbrooks",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1901
   },
   {
@@ -739,8 +801,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Magic_Mountain\n",
     "pages": 720,
     "title": "The Magic Mountain",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1924
   },
   {
@@ -751,8 +814,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Moby-Dick\n",
     "pages": 378,
     "title": "Moby Dick",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1851
   },
   {
@@ -763,8 +827,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Essays_(Montaigne)\n",
     "pages": 404,
     "title": "Essays",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1595
   },
   {
@@ -775,8 +840,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/History_(novel)\n",
     "pages": 600,
     "title": "History",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1974
   },
   {
@@ -787,8 +853,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Beloved_(novel)\n",
     "pages": 321,
     "title": "Beloved",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1987
   },
   {
@@ -799,8 +866,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Tale_of_Genji\n",
     "pages": 1360,
     "title": "The Tale of Genji",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1006
   },
   {
@@ -811,8 +879,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Man_Without_Qualities\n",
     "pages": 365,
     "title": "The Man Without Qualities",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1931
   },
   {
@@ -823,8 +892,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Lolita\n",
     "pages": 317,
     "title": "Lolita",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1955
   },
   {
@@ -835,8 +905,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Nineteen_Eighty-Four\n",
     "pages": 272,
     "title": "Nineteen Eighty-Four",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1949
   },
   {
@@ -847,8 +918,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Metamorphoses\n",
     "pages": 576,
     "title": "Metamorphoses",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 100
   },
   {
@@ -859,8 +931,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Book_of_Disquiet\n",
     "pages": 272,
     "title": "The Book of Disquiet",
-    "rating" : 4,
-"price": 564,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 564,
     "year": 1928
   },
   {
@@ -871,8 +944,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales\n",
     "pages": 842,
     "title": "Tales",
-    "rating" : 4,
-"price": 934,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 934,
     "year": 1950
   },
   {
@@ -883,8 +957,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time\n",
     "pages": 2408,
     "title": "In Search of Lost Time",
-    "rating" : 4,
-"price": 864,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 864,
     "year": 1920
   },
   {
@@ -895,8 +970,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel\n",
     "pages": 623,
     "title": "Gargantua and Pantagruel",
-    "rating" : 4,
-"price": 634,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 634,
     "year": 1533
   },
   {
@@ -907,8 +983,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Pedro_P%C3%A1ramo\n",
     "pages": 124,
     "title": "Pedro P\u00e1ramo",
-    "rating" : 4,
-"price": 194,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 194,
     "year": 1955
   },
   {
@@ -919,8 +996,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Masnavi\n",
     "pages": 438,
     "title": "The Masnavi",
-    "rating" : 4,
-"price": 434,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 434,
     "year": 1236
   },
   {
@@ -931,8 +1009,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Midnight%27s_Children\n",
     "pages": 536,
     "title": "Midnight's Children",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1981
   },
   {
@@ -943,8 +1022,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Bustan_(book)\n",
     "pages": 298,
     "title": "Bostan",
-    "rating" : 4,
-"price": 594,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 594,
     "year": 1257
   },
   {
@@ -955,8 +1035,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North\n",
     "pages": 139,
     "title": "Season of Migration to the North",
-    "rating" : 4,
-"price": 1834,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 1834,
     "year": 1966
   },
   {
@@ -967,8 +1048,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Blindness_(novel)\n",
     "pages": 352,
     "title": "Blindness",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1995
   },
   {
@@ -979,8 +1061,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Hamlet\n",
     "pages": 432,
     "title": "Hamlet",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1603
   },
   {
@@ -991,8 +1074,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/King_Lear\n",
     "pages": 384,
     "title": "King Lear",
-    "rating" : 4,
-"price": 244,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 244,
     "year": 1608
   },
   {
@@ -1003,8 +1087,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Othello\n",
     "pages": 314,
     "title": "Othello",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1609
   },
   {
@@ -1015,8 +1100,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Oedipus_the_King\n",
     "pages": 88,
     "title": "Oedipus the King",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": -430
   },
   {
@@ -1027,8 +1113,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Red_and_the_Black\n",
     "pages": 576,
     "title": "The Red and the Black",
-    "rating" : 5,
-"price": 434,
+    "rating": 5,
+    "salePrice": 239,
+    "price": 434,
     "year": 1830
   },
   {
@@ -1039,8 +1126,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Life_and_Opinions_of_Tristram_Shandy,_Gentleman\n",
     "pages": 640,
     "title": "The Life And Opinions of Tristram Shandy",
-    "rating" : 4,
-"price": 954,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 954,
     "year": 1760
   },
   {
@@ -1051,8 +1139,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Zeno%27s_Conscience\n",
     "pages": 412,
     "title": "Confessions of Zeno",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1923
   },
   {
@@ -1063,8 +1152,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Gulliver%27s_Travels\n",
     "pages": 178,
     "title": "Gulliver's Travels",
-    "rating" : 5,
-"price": 134,
+    "rating": 5,
+    "salePrice": 239,
+    "price": 134,
     "year": 1726
   },
   {
@@ -1075,8 +1165,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/War_and_Peace\n",
     "pages": 1296,
     "title": "War and Peace",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1867
   },
   {
@@ -1087,8 +1178,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Anna_Karenina\n",
     "pages": 864,
     "title": "Anna Karenina",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": 1877
   },
   {
@@ -1099,8 +1191,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Death_of_Ivan_Ilyich\n",
     "pages": 92,
     "title": "The Death of Ivan Ilyich",
-    "rating" : 4,
-"price": 544,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 544,
     "year": 1886
   },
   {
@@ -1111,8 +1204,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn\n",
     "pages": 224,
     "title": "The Adventures of Huckleberry Finn",
-    "rating" : 4,
-"price": 144,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 144,
     "year": 1884
   },
   {
@@ -1123,8 +1217,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Ramayana\n",
     "pages": 152,
     "title": "Ramayana",
-    "rating" : 5,
-"price": 134,
+    "rating": 5,
+    "salePrice": 239,
+    "price": 134,
     "year": -450
   },
   {
@@ -1135,8 +1230,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Aeneid\n",
     "pages": 442,
     "title": "The Aeneid",
-    "rating" : 2,
-"price": 134,
+    "rating": 2,
+    "salePrice": 239,
+    "price": 134,
     "year": -23
   },
   {
@@ -1147,8 +1243,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Mahabharata\n",
     "pages": 276,
     "title": "Mahabharata",
-    "rating" : 4,
-"price": 134,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 134,
     "year": -700
   },
   {
@@ -1159,8 +1256,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Leaves_of_Grass\n",
     "pages": 152,
     "title": "Leaves of Grass",
-    "rating" : 4,
-"price": 234,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 234,
     "year": 1855
   },
   {
@@ -1171,8 +1269,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Mrs_Dalloway\n",
     "pages": 216,
     "title": "Mrs Dalloway",
-    "rating" : 4,
-"price": 164,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 164,
     "year": 1925
   },
   {
@@ -1183,8 +1282,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/To_the_Lighthouse\n",
     "pages": 209,
     "title": "To the Lighthouse",
-    "rating" : 4,
-"price": 114,
+    "rating": 4,
+    "salePrice": 239,
+    "price": 114,
     "year": 1927
   },
   {
@@ -1195,8 +1295,9 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Memoirs_of_Hadrian\n",
     "pages": 408,
     "title": "Memoirs of Hadrian",
-    "rating" : 5,
-"price": 134,
+    "rating": 5,
+    "salePrice": 239,
+    "price": 134,
     "year": 1951
   }
 ]

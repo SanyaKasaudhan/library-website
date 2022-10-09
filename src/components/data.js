@@ -7,7 +7,7 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Stranger_(novel)\n",
     "pages": 185,
     "title": "The Stranger",
-    "rating": 4,
+    "rating": 4.5,
     "salePrice": 239,
     "price": 694,
     "year": 1942
@@ -33,7 +33,7 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Fairy_Tales_Told_for_Children._First_Collection.\n",
     "pages": 784,
     "title": "Fairy tales",
-    "rating": 5,
+    "rating": 4.5,
     "salePrice": null,
     "price": 964,
     "year": 1836
@@ -46,13 +46,13 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Divine_Comedy\n",
     "pages": 928,
     "title": "The Divine Comedy",
-    "rating": 3,
+    "rating": 3.5,
     "salePrice": 219,
     "price": 364,
     "year": 1315
   },
   {
-    "author": "Unknown",
+    "author": "sany kamsd",
     "country": "Sumer and Akkadian Empire",
     "imageLink": "images/the-epic-of-gilgamesh.jpg",
     "language": "Akkadian",

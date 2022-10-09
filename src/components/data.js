@@ -1,5 +1,6 @@
 export const books = [
   {
+    "id":1,
     "author": "Albert Camus",
     "country": "Algeria, French Empire",
     "imageLink": "images/l-etranger.jpg",
@@ -13,6 +14,7 @@ export const books = [
     "year": 1942
   },
   {
+    "id":2,
     "author": "Chinua Achebe",
     "country": "Nigeria",
     "imageLink": "./images/things-fall-apart.jpg",
@@ -26,6 +28,7 @@ export const books = [
     "year": 1958
   },
   {
+    "id":3,
     "author": "Hans C Andersen",
     "country": "Denmark",
     "imageLink": "./images/fairy-tales.jpg",
@@ -39,6 +42,7 @@ export const books = [
     "year": 1836
   },
   {
+    "id":4,
     "author": "Dante Alighieri",
     "country": "Italy",
     "imageLink": "images/the-divine-comedy.jpg",
@@ -52,6 +56,7 @@ export const books = [
     "year": 1315
   },
   {
+    "id":5,
     "author": "sany kamsd",
     "country": "Sumer and Akkadian Empire",
     "imageLink": "images/the-epic-of-gilgamesh.jpg",
@@ -65,6 +70,7 @@ export const books = [
     "year": -1700
   },
   {
+    "id":6,
     "author": "ruskin bond",
     "country": "Achaemenid Empire",
     "imageLink": "images/the-book-of-job.jpg",
@@ -78,6 +84,7 @@ export const books = [
     "year": -600
   },
   {
+    "id":7,
     "author": "Unknown",
     "country": "India/Iran/Iraq/Egypt/Tajikistan",
     "imageLink": "images/one-thousand-and-one-nights.jpg",
@@ -91,6 +98,7 @@ export const books = [
     "year": 1200
   },
   {
+    "id":8,
     "author": "Unknown",
     "country": "Iceland",
     "imageLink": "images/njals-saga.jpg",
@@ -104,6 +112,7 @@ export const books = [
     "year": 1350
   },
   {
+    "id":9,
     "author": "Jane Austen",
     "country": "United Kingdom",
     "imageLink": "images/pride-and-prejudice.jpg",
@@ -117,6 +126,7 @@ export const books = [
     "year": 1813
   },
   {
+    "id":10,
     "author": "Honor\u00e9 de Balzac",
     "country": "France",
     "imageLink": "images/le-pere-goriot.jpg",
@@ -130,6 +140,7 @@ export const books = [
     "year": 1835
   },
   {
+    "id":11,
     "author": "Samuel Beckett",
     "country": "Republic of Ireland",
     "imageLink": "images/molloy-malone-dies-the-unnamable.jpg",
@@ -143,6 +154,7 @@ export const books = [
     "year": 1952
   },
   {
+    "id":12,
     "author": "Giovanni Boccaccio",
     "country": "Italy",
     "imageLink": "images/the-decameron.jpg",
@@ -156,6 +168,7 @@ export const books = [
     "year": 1351
   },
   {
+    "id":!3,
     "author": "Jorge Luis Borges",
     "country": "Argentina",
     "imageLink": "images/ficciones.jpg",
@@ -169,6 +182,7 @@ export const books = [
     "year": 1965
   },
   {
+    "id":14,
     "author": "Emily Bront",
     "country": "United Kingdom",
     "imageLink": "images/wuthering-heights.jpg",
@@ -183,6 +197,7 @@ export const books = [
   },
  
   {
+    "id":15,
     "author": "Paul Celan",
     "country": "Romania, France",
     "imageLink": "images/poems-paul-celan.jpg",
@@ -196,6 +211,7 @@ export const books = [
     "year": 1952
   },
   {
+    "id":16,
     "author": "Louis-Ferdinand C\u00e9line",
     "country": "France",
     "imageLink": "images/voyage-au-bout-de-la-nuit.jpg",
@@ -203,12 +219,13 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Journey_to_the_End_of_the_Night\n",
     "pages": 505,
     "title": "Journey to the End of the Night",
-    "rating": 4,
+    "rating": 4.5,
     "salePrice": 239,
     "price": 134,
     "year": 1932
   },
   {
+    "id":17,
     "author": "Miguel de Cervantes",
     "country": "Spain",
     "imageLink": "images/don-quijote-de-la-mancha.jpg",
@@ -216,12 +233,13 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/Don_Quixote\n",
     "pages": 1056,
     "title": "Don Quijote De La Mancha",
-    "rating": 4,
+    "rating": 5,
     "salePrice": 239,
     "price": 134,
     "year": 1610
   },
   {
+    "id":18,
     "author": "Geoffrey Chaucer",
     "country": "England",
     "imageLink": "images/the-canterbury-tales.jpg",
@@ -229,12 +247,13 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/The_Canterbury_Tales\n",
     "pages": 544,
     "title": "The Canterbury Tales",
-    "rating": 4,
-    "salePrice": 239,
+    "rating": 2,
+    "salePrice": 39,
     "price": 134,
     "year": 1450
   },
   {
+    "id":19,
     "author": "Anton Chekhov",
     "country": "Russia",
     "imageLink": "images/stories-of-anton-chekhov.jpg",
@@ -242,8 +261,8 @@ export const books = [
     "link": "https://en.wikipedia.org/wiki/List_of_short_stories_by_Anton_Chekhov\n",
     "pages": 194,
     "title": "Stories",
-    "rating": 4,
-    "salePrice": 239,
+    "rating": 5,
+    "salePrice": 439,
     "price": 134,
     "year": 1886
   },

@@ -1,22 +1,24 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom'
 const Books = ({book}) => {
    // console.log("filt",book) ;  
   return (
     <div className=''>
-          <a href="#" className="">
+          <Link to={`/books/${book.id}`} className="">
             <img
               className=" w-full min-w-48 max-h-72 block h-auto"
               src={book.imageLink}
-              alt=""
+              alt="image display"
             />
-          </a>
+          </Link>
           <div className="px-5 pb-5">
-            <a href="#">
+          <Link to={`/books/${book.id}`} className="">
+
               <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 {book.title}
               </h5>
-            </a>
+            </Link>
             <div className="flex items-center mt-2.5 mb-5">
 
               {

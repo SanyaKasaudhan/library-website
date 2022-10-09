@@ -20,7 +20,7 @@ const Header = () => {
         </h2>
       </div>
 
-      <div class="flex flex-row justify-center">
+      <div className="flex flex-row justify-center">
         <div className="mx-20">
           <div className="md:w-fit box-border h-28 w-28 p-4 border-4 m-12 border-orange-300">
             <div className="icon text-7xl">
@@ -37,7 +37,7 @@ const Header = () => {
         </div>
 
         <div className="mx-20">
-          <div class="box-border h-28 w-28 p-4 border-4 m-12 border-orange-300">
+          <div className="box-border h-28 w-28 p-4 border-4 m-12 border-orange-300">
             <div className="icon text-7xl">
               {" "}
               <FaEllo />
@@ -52,7 +52,7 @@ const Header = () => {
         </div>
 
         <div className="mx-20">
-          <div class="box-border h-28 w-28 p-4 border-4 m-12 border-orange-300">
+          <div className="box-border h-28 w-28 p-4 border-4 m-12 border-orange-300">
             <div className="icon text-7xl">
               {" "}
               <FaBookOpen />

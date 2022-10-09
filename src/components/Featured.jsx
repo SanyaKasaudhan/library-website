@@ -29,13 +29,13 @@ const Featured = () => {
                 alt=""
               />
             </a>
-            <div class="px-5 pb-5">
+            <div className="px-5 pb-5">
               <a href="#">
-                <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
                   Atomic habits
                 </h5>
               </a>
-              <div class="flex items-center mt-2.5 mb-5">
+              <div className="flex items-center mt-2.5 mb-5">
                 <FontAwesomeIcon
                   icon="star"
                   style={{ color: "yellow", fontSize: "1em" }}
@@ -56,12 +56,12 @@ const Featured = () => {
                   icon="star-half-alt"
                   style={{ color: "yellow", fontSize: "1em" }}
                 />
-                <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
+                <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
                   ruskin bond
                 </span>
               </div>
-              <div class="flex justify-between items-center">
-                <span class="text-xl font-bold text-gray-900 dark:text-white">
+              <div className="flex justify-between items-center">
+                <span className="text-xl font-bold text-gray-900 dark:text-white">
                   243 pages
                 </span>
                 <span className="price">

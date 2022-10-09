@@ -1,31 +1,24 @@
-import Cards from "./components/Cards";
-import Discount from "./components/Discount";
-import Featured from "./components/Featured";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Fea from "./components/Fea";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import AllBook from "./components/AllBook";
+import {books} from './components/data'
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Fea />
-      <Discount />
-      <Footer />
-     {/* <Cards /> */}
 
-     {/* <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Navbar />}>
-          <Route index element={<Navbar />} />
-          <Route path="books" element={<Cards />} />
-        </Route>
-      </Routes>
-    </BrowserRouter> */}
-    </div>
+
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Route exact path="/" component={Home} />
+        {/* <Home /> */}
+        <Route exact path="/books" render={() => <AllBook books={books} />} />
+        
+        <Footer />
+      </div>
+
+    </Router>
   );
 }
 

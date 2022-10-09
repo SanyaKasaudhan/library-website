@@ -11,13 +11,13 @@ const Books = ({book}) => {
               alt=""
             />
           </a>
-          <div class="px-5 pb-5">
+          <div className="px-5 pb-5">
             <a href="#">
-              <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 {book.title}
               </h5>
             </a>
-            <div class="flex items-center mt-2.5 mb-5">
+            <div className="flex items-center mt-2.5 mb-5">
 
               {
                 new Array(Math.floor(book.rating )).fill(0).map((_, index)=>
@@ -27,24 +27,24 @@ const Books = ({book}) => {
               {
                 !Number.isInteger(book.rating) && <FontAwesomeIcon icon="star-half-alt"  style = { {color: "#fbc02d", fontSize: "1rem" }} />
               }
-            <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
+            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
                 {book.language}
               </span>
             </div>
-            <div class="flex justify-between items-center">
-              <span class="text-xl font-bold text-gray-900 dark:text-white">
+            <div className="flex justify-between items-center">
+              <span className="text-xl font-bold text-gray-900 dark:text-white">
                 {book.pages} pages
               </span>
               
             </div>
-            <div class="flex justify-between items-center">
+            <div className="flex justify-between items-center">
               {book.salePrice ? 
-               <>   <span class="text-xl font-bold text-gray-500 dark:text-white">
+               <>   <span className="text-xl font-bold text-gray-500 dark:text-white">
                <del> ${book.price}</del></span>
-               <span class="text-xl font-bold text-gray-900 dark:text-white">
+               <span className="text-xl font-bold text-gray-900 dark:text-white">
              
                 ${book.salePrice}</span></>
-                : <>  <span class="text-xl font-bold text-gray-900 dark:text-white">
+                : <>  <span className="text-xl font-bold text-gray-900 dark:text-white">
                 ${book.price
                 }</span></>
               } 

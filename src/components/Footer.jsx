@@ -2,11 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-        <div className='h-1200 min-w-full bg-black'>
-          Footer
-          home page
-        </div>
+    <div class="flex flex-col w-full h-screen overflow-auto">
+         <div class=" mt-auto w-full h-24 bg-amber-600">Bottom</div>
     </div>
   )
 }

@@ -1,5 +1,4 @@
-import React,{ Component } from 'react';
-import {Card,CardGroup} from 'react-bootstrap';
+import React from 'react';
 import {books} from './data'
 import Books from './Books';
 const Fea = () => {

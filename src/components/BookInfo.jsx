@@ -1,12 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React,{useState} from "react";
 import { Link, useParams } from "react-router-dom";
 import Books from "./Books";
 
 const BookInfo = ({books , addToCart}) => {
   const {id}=useParams();
   const book=books.find(book=> +book.id ==id);
-  console.log("book",book.imageLink);
+  const [added, setAdded] =useState(false);
+  function addBookToCart(book){
+    setAdded(true);
+    addToCart(book)
+  }
   return (
     <div>
     
@@ -56,7 +60,7 @@ const BookInfo = ({books , addToCart}) => {
                  {book.country}
                 </span>
                 <a
-                  href="#" onClick={() =>addToCart(book)}
+                  href="#" onClick={() =>addBookToCart(book)}
                   class="text-white mx-20 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  "
                 >
                   Add to cart

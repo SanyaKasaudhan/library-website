@@ -25,6 +25,16 @@ function App() {
     :item))
   }
 
+  function noOfItems(){
+    let counter=0;
+    cart.forEach(item =>{
+      counter+= item.quantity
+    })
+    return counter
+  }
+  function removeItem(item){
+    setCart(cart.filter(book=> book.id!== item.id))
+  }
   useEffect(() => {
     console.log("cart", cart)
   }, [cart]);
@@ -33,12 +43,12 @@ function App() {
     <Router>
       <Routes>
       <div className="App">
-        <Navbar />
+        <Navbar noOfItems={noOfItems()} />
         <Route path="/" exact component={Home} />
         {/* <Home /> */}
         <Route path="/books" exact render={() => <AllBook books={books} />} />
         <Route path="/books/:id" render={() => <BookInfo books={books} addToCart={addToCart} cart={cart}/>} />
-        <Route path="/cart" render={() => <Cart books={books} cart={cart} changeQuantity={changeQuantity} />} />
+        <Route path="/cart" render={() => <Cart books={books} cart={cart} changeQuantity={changeQuantity} removeItem={removeItem} />} />
         
         <Footer />
       </div>

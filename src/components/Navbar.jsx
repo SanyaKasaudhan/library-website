@@ -4,9 +4,8 @@ import logo1 from "../logo.jpg";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-
-
-const Navbar = () => {
+import './cart.css'
+const Navbar = ({noOfItems}) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
@@ -34,6 +33,7 @@ const Navbar = () => {
             <div className="shop-icon flex-row-reverse flex-end ml-auto">
               <Link to="/cart" color="white" className="">
                 <FontAwesomeIcon icon={faShoppingCart} />
+               <span className="bg-gray-100 rounded-full p-1" >{noOfItems}</span>
               </Link>
             </div>
 

@@ -7,7 +7,7 @@ const Books = ({book}) => {
     <div className=''>
           <Link to={`/books/${book.id}`} className="">
             <img
-              className=" w-full min-w-48 max-h-72 block h-auto"
+              className=" w-full min-w-56 max-h-72 block h-auto"
               src={book.url}
               alt="image display"
             />
@@ -29,9 +29,6 @@ const Books = ({book}) => {
               {
                 !Number.isInteger(book.rating) && <FontAwesomeIcon icon="star-half-alt"  style = { {color: "#fbc02d", fontSize: "1rem" }} />
               }
-            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
-                {book.language}
-              </span>
             </div>
             <div className="flex justify-between items-center">
               {/* <span className="text-xl font-bold text-gray-900 dark:text-white">

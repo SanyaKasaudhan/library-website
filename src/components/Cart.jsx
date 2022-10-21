@@ -1,6 +1,6 @@
 import React from "react";
-
-const Cart = () => {
+import './cart.css'
+const Cart = ({cart, changeQuantity}) => {
   return (
     <div>
       <div className="text-3xl text-orange-500 text-center my-5">Cart</div>
@@ -25,59 +25,66 @@ const Cart = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-2/5">
+                  {cart.map(book=>{  
+                    return(
+                    <> <tr >
+                    <td  key={book.id} class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-2/5">
                       <div class="text-center">
                         <div class="mr-3">
-                          <p class="px-5 py-3">Team 2</p>
+                          <p class="px-5 py-3">{book.url}</p>
+                          <p class="px-5">({book.salePrice || book.originalPrice}).toFixed(2)</p>
+                          
                         </div>
                       </div>
                     </td>
                     <td class="px-10 border-b border-gray-200 bg-white text-sm">
-                      <select
-                        id="qty"
-                        name="qty"
-                        autocomplete="qty"
-                        class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                      >
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
+                    <div className="cart__quantity">qty
+                        <input
+                          type="number"
+                          className="cart__input"
+                          min={0}
+                          max={99}
+                          value={book.quantity}
+                          onChange={(event) =>changeQuantity(book, event.target.value)
+                          }
+                        />
+                      </div>
                     </td>
 
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-2/5">
                       <div class="text-center">
                         <div class="mr-3">
-                          <p class="px-5 py-3">Team 2</p>
+                          <p class="px-5 py-3">{}</p>
                         </div>
                       </div>
                     </td>
-                  </tr>
+                  </tr></>)  
+                  })}
+                 
                   <tr>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-2/5">
                       <div class="text-center">
                         <div class="mr-3">
                           <p class="px-5 py-3">Team 2</p>
+                          <p class="px-5">Sale 2</p>
                         </div>
                       </div>
                     </td>
                     <td class="px-10 border-b border-gray-200 bg-white text-sm">
-                      <select
-                        id="qty"
-                        name="qty"
-                        autocomplete="qty"
-                        class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
-                      >
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
+                    <div className="cart__quantity">
+                        <input
+                          type="number"
+                          className="cart__input"
+                          min={0}
+                          max={99}
+                          value="1"
+                          onChange={(event) =>
+                            (event.target.value)
+                          }
+                        />
+                      </div>
                     </td>
+
 
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm w-2/5">
                       <div class="text-center">

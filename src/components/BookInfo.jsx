@@ -13,7 +13,7 @@ const BookInfo = ({books , addToCart, cart}) => {
   }
 
   function bookExistsOnCart(){
-   //return cart.find(book =>book.id ===+id);
+   return cart.find(book =>book.id ===+id);
   }
   return (
     <div>
@@ -37,22 +37,20 @@ const BookInfo = ({books , addToCart, cart}) => {
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"></h5>
-              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <p class="mb-3 font-extrabold text-gray-700 dark:text-gray-400">
                {book.title}</p>
 
-              <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
-                {book.author}
-              </h5>
-              <span class="text-sm text-gray-500 dark:text-gray-400">
-               {book.link}
-              </span>
-
-
               <div class="flex items-center mt-4">
-                        <div class="pr-9 text-xl"><del>${book.originalPrice}</del>
-                        </div>
-                        <div class="px-5  text-xl">${book.salePrice}
-                        </div>
+              {book.salePrice ? 
+               <>   <span className="text-xl font-bold text-gray-500 dark:text-white">
+               <del> ${book.originalPrice}</del></span>
+               <span className="text-xl font-bold ml-8 text-gray-900 dark:text-white">
+             
+                ${book.salePrice}</span></>
+                : <>  <span className="text-xl ml-8 font-bold text-gray-900 dark:text-white">
+                ${book.originalPrice}
+                </span></>
+              } 
             </div>
 
               <div class="flex justify-between items-center">
@@ -60,9 +58,9 @@ const BookInfo = ({books , addToCart, cart}) => {
                  {book.country}
                 </span>
                 {bookExistsOnCart() ? (
-                    <button
+                    <Link to={`/cart`}
                     class="text-white mx-20 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  "
-                  >Checkout </button>
+                  >Checkout </Link>
                 ):(
                   <button
                   onClick={() =>addBookToCart(book)}

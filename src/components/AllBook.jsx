@@ -53,9 +53,9 @@ const AllBook = ({books : initialState}) => {
           </div>
         </div>
         <div className="flex justify-evenly flex-wrap flex-row mx-10">
-          {books.map((book, i) => (
+          {books.map((book) => (
             <div className="bg-pink-200 w-2/12 mx-2 my-2 ">
-              <Books book={book} key={i} />
+              <Books book={book} key={book.id} />
             </div>
           ))}
         </div>

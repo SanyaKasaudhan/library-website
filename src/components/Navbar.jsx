@@ -32,7 +32,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="shop-icon flex-row-reverse flex-end ml-auto">
-              <Link to="/" color="white" className="">
+              <Link to="/cart" color="white" className="">
                 <FontAwesomeIcon icon={faShoppingCart} />
               </Link>
             </div>

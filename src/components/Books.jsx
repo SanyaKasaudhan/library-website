@@ -8,7 +8,7 @@ const Books = ({book}) => {
           <Link to={`/books/${book.id}`} className="">
             <img
               className=" w-full min-w-48 max-h-72 block h-auto"
-              src={book.imageLink}
+              src={book.url}
               alt="image display"
             />
           </Link>
@@ -34,20 +34,20 @@ const Books = ({book}) => {
               </span>
             </div>
             <div className="flex justify-between items-center">
-              <span className="text-xl font-bold text-gray-900 dark:text-white">
+              {/* <span className="text-xl font-bold text-gray-900 dark:text-white">
                 {book.pages} pages
-              </span>
+              </span> */}
               
             </div>
             <div className="flex justify-between items-center">
               {book.salePrice ? 
                <>   <span className="text-xl font-bold text-gray-500 dark:text-white">
-               <del> ${book.price}</del></span>
+               <del> ${book.originalPrice}</del></span>
                <span className="text-xl font-bold text-gray-900 dark:text-white">
              
                 ${book.salePrice}</span></>
                 : <>  <span className="text-xl font-bold text-gray-900 dark:text-white">
-                ${book.price
+                ${book.originalPrice
                 }</span></>
               } 
               

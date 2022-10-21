@@ -3,13 +3,17 @@ import React,{useState} from "react";
 import { Link, useParams } from "react-router-dom";
 import Books from "./Books";
 
-const BookInfo = ({books , addToCart}) => {
+const BookInfo = ({books , addToCart, cart}) => {
   const {id}=useParams();
   const book=books.find(book=> +book.id ==id);
-  const [added, setAdded] =useState(false);
+ // const [added, setAdded] =useState(false);
   function addBookToCart(book){
-    setAdded(true);
+ //   setAdded(true);
     addToCart(book)
+  }
+
+  function bookExistsOnCart(){
+   //return cart.find(book =>book.id ===+id);
   }
   return (
     <div>
@@ -28,7 +32,7 @@ const BookInfo = ({books , addToCart}) => {
               
             <img
               class="object-cover w-full h-96 rounded-t-lg  md:w-48 md:rounded-none md:rounded-l-lg"
-              src={book.imageLink}
+              src={book.url}
               alt="imge"
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
@@ -43,13 +47,9 @@ const BookInfo = ({books , addToCart}) => {
                {book.link}
               </span>
 
-              <div className="text-2xl">
-               {book.pages} pages
-                <span></span>
-              </div>
 
               <div class="flex items-center mt-4">
-                        <div class="pr-9 text-xl"><del>${book.price}</del>
+                        <div class="pr-9 text-xl"><del>${book.originalPrice}</del>
                         </div>
                         <div class="px-5  text-xl">${book.salePrice}
                         </div>
@@ -59,12 +59,19 @@ const BookInfo = ({books , addToCart}) => {
                 <span class="text-lg font-bold text-gray-900 dark:text-white">
                  {book.country}
                 </span>
-                <a
-                  href="#" onClick={() =>addBookToCart(book)}
+                {bookExistsOnCart() ? (
+                    <button
+                    class="text-white mx-20 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  "
+                  >Checkout </button>
+                ):(
+                  <button
+                  onClick={() =>addBookToCart(book)}
                   class="text-white mx-20 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center  "
                 >
                   Add to cart
-                </a>
+                </button>
+                )}
+               
               </div>
 
               

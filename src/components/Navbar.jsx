@@ -33,7 +33,8 @@ const Navbar = ({noOfItems}) => {
             <div className="shop-icon flex-row-reverse flex-end ml-auto">
               <Link to="/cart" color="white" className="">
                 <FontAwesomeIcon icon={faShoppingCart} />
-               <span className="bg-gray-100 rounded-full p-1" >{noOfItems}</span>
+               {noOfItems>0 &&
+               <span className="bg-gray-100 rounded-full p-1" >{noOfItems}</span>}
               </Link>
             </div>
 
